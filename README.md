@@ -73,6 +73,10 @@ Transferir:
     
       near call cuenta transferir_vasseto '{"id_new_owner":"new owner","id_vasseto": id):}'--acountid nombre.testnet
     
+## Video demo
+    
+    https://www.loom.com/share/0b53ffa3151f426283d0bbe9deba62dc
+    
 This is a explanation of the smart contract file system
 
 ├── README.md                                       # this file
