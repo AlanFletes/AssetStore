@@ -54,7 +54,6 @@ Para realizar pruebas directas se recomienda abrir una segunda terminal con el m
 Si necesita cambiar algo o cambio algo no olvide utilizar el conjunto de teclas ctl + c en la terminal donde esta corriendo el contrato
 asi cerrara el proceso para que se guarden los cambios y pueda ejecutar:
      ``` npm start ```
-<//>
 
 Comandos para ejecutar comandos directos:
 Crear objeto:
