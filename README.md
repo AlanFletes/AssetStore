@@ -41,7 +41,7 @@ utilizando:
 
 
 ## Paso 4: Realice la instalación del gestor de dependencia de Node.js dentro del repositorio: 
-     ``` npm install  ```
+     npm install
 
 ejecute el contrato con:
      ``` npm start  ```
