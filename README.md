@@ -32,19 +32,23 @@ Puedes hacerle fork
 ![image](https://user-images.githubusercontent.com/61811113/135677950-ef73017e-e657-40c4-ade9-84fc43a6aea5.png)
 
 y luego clonarlo con:
+
     ``` git clone https://github.com/AlanFletes/AssetStore.git ```
 
 
 Una vez que hayas descargado el repositorio, asegurate de ejecutar los comandos dentro del repositorio descargado.
 utilizando: 
+
     ``` cd AssetStore ```
 
 
 ## Paso 4: Realice la instalación del gestor de dependencia de Node.js dentro del repositorio: 
+
      npm install
 
 ejecute el contrato con:
-     ``` npm start  ```
+
+     npm start
     
 Ahora se debera abrir una pagina en tu navegador, ¡muy bien! ya tienes un entorno de desarrollo local ejecutandose sobre near testnet
 
@@ -54,20 +58,20 @@ Para realizar pruebas directas se recomienda abrir una segunda terminal con el m
 Si necesita cambiar algo o cambio algo no olvide utilizar el conjunto de teclas ctl + c en la terminal donde esta corriendo el contrato
 asi cerrara el proceso para que se guarden los cambios y pueda ejecutar:
     
-     ``` npm start ```
+     npm start
 
 Comandos para ejecutar comandos directos:
 Crear objeto:
 
-     ``` near call cuentadev crear_vasset '{"id_cuenta":"Nombre.testnet","vasset":"numeroIdentificador|NombreDelVasseto|DescripciónDelVasseto|' --account_id Nombre.testnet ```
+     near call cuentadev crear_vasset '{"id_cuenta":"Nombre.testnet","vasset":"numeroIdentificador|NombreDelVasseto|DescripciónDelVasseto|' --account_id Nombre.testnet
  
 Verificar propiedad:
     
-      ``` near call cuentadev obtener_vasseto '{"id_vasseto":0}' --accountid nombre.testnet ```
+      near call cuentadev obtener_vasseto '{"id_vasseto":0}' --accountid nombre.testnet
 
 Transferir:
     
-      ``` near call cuenta transferir_vasseto '{"id_new_owner":"new owner","id_vasseto": id):}'--acountid nombre.testnet ```
+      near call cuenta transferir_vasseto '{"id_new_owner":"new owner","id_vasseto": id):}'--acountid nombre.testnet
     
 This is a explanation of the smart contract file system
 
