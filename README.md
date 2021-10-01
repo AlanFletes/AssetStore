@@ -33,13 +33,13 @@ Puedes hacerle fork
 
 y luego clonarlo con:
 
-    ``` git clone https://github.com/AlanFletes/AssetStore.git ```
+    git clone https://github.com/AlanFletes/AssetStore.git
 
 
 Una vez que hayas descargado el repositorio, asegurate de ejecutar los comandos dentro del repositorio descargado.
 utilizando: 
 
-    ``` cd AssetStore ```
+    cd AssetStore
 
 
 ## Paso 4: Realice la instalación del gestor de dependencia de Node.js dentro del repositorio: 
