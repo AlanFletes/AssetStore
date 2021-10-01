@@ -9,7 +9,7 @@ que permite:
 
 ## Paso 1: Pre-requisitos
 - Asegúrese de haber instalado Node.js ≥ 12 ((recomendamos usar nvm)
-- Asegúrese de haber instalado yarn: npm install -g yarn
+- Asegúrese de haber instalado yarn:     ``` npm install -g yarn  ```
 
 ## Instalar dependencias: 
 - Instalar Yarn:
@@ -41,10 +41,10 @@ utilizando:
 
 
 ## Paso 4: Realice la instalación del gestor de dependencia de Node.js dentro del repositorio: 
-    npm install
+     ``` npm install  ```
 
 ejecute el contrato con:
-    npm start
+     ``` npm start  ```
     
 Ahora se debera abrir una pagina en tu navegador, ¡muy bien! ya tienes un entorno de desarrollo local ejecutandose sobre near testnet
 
