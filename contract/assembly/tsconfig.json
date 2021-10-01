@@ -1,5 +1,6 @@
 {
   "extends": "assemblyscript/std/assembly.json",
+  "compilerOptions": {"target": "es2015"},
   "include": [
     "./**/*.ts"
   ]
