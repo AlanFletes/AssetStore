@@ -53,6 +53,7 @@ Para realizar pruebas directas se recomienda abrir una segunda terminal con el m
 
 Si necesita cambiar algo o cambio algo no olvide utilizar el conjunto de teclas ctl + c en la terminal donde esta corriendo el contrato
 asi cerrara el proceso para que se guarden los cambios y pueda ejecutar:
+    
      ``` npm start ```
 
 Comandos para ejecutar comandos directos:
@@ -61,13 +62,13 @@ Crear objeto:
      ``` near call cuentadev crear_vasset '{"id_cuenta":"Nombre.testnet","vasset":"numeroIdentificador|NombreDelVasseto|DescripciónDelVasseto|' --account_id Nombre.testnet ```
  
 Verificar propiedad:
+    
       ``` near call cuentadev obtener_vasseto '{"id_vasseto":0}' --accountid nombre.testnet ```
 
 Transferir:
+    
       ``` near call cuenta transferir_vasseto '{"id_new_owner":"new owner","id_vasseto": id):}'--acountid nombre.testnet ```
-
- 
-      ``` 
+    
 This is a explanation of the smart contract file system
 
 ├── README.md                                       # this file
